@@ -4,9 +4,9 @@ Read microphone loudness in React Native
 
 ## Getting started
 
-`$ npm install react-native-loudness --save`
+`$ npm install @flyskywhy/react-native-loudness --save`
 
-`$ react-native link react-native-loudness`
+`$ react-native link @flyskywhy/react-native-loudness`
 
 For RN>0.60, no need to link but please run `pod install` in the project `ios` directory.
 
@@ -26,7 +26,7 @@ The app needs to ask permission for microphone usage. If the loudness reading is
 Loudness is in dbFS from -160 to 0, where -160 represents near absolute silence and 0 represents the maximum loudness the microphone can sense.
 
 ```javascript
-import Loudness from 'react-native-loudness';
+import Loudness from '@flyskywhy/react-native-loudness';
 
 Loudness.start();
 
